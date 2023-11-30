@@ -1,0 +1,52 @@
+madisonowens@Madisons-MacBook Git-Github % cd TP
+madisonowens@Madisons-MacBook TP % ls
+madisonowens@Madisons-MacBook TP % git init
+madisonowens@Madisons-MacBook TP % ls -a
+madisonowens@Madisons-MacBook TP % touch one.txt
+madisonowens@Madisons-MacBook TP % git add one.txt
+madisonowens@Madisons-MacBook TP % git commit -m "added 1st file"
+madisonowens@Madisons-MacBook TP % touch two.txt
+madisonowens@Madisons-MacBook TP % git add two.txt
+madisonowens@Madisons-MacBook TP % git commit -m "added 2nd file"
+madisonowens@Madisons-MacBook TP % touch three.txt
+madisonowens@Madisons-MacBook TP % git add three.txt
+madisonowens@Madisons-MacBook TP % git commit -m "added 3rd file"
+madisonowens@Madisons-MacBook TP % touch .gitignore
+madisonowens@Madisons-MacBook TP % git add .gitignore
+madisonowens@Madisons-MacBook TP % git commit -m "added .gitignore file"
+madisonowens@Madisons-MacBook TP % git status
+madisonowens@Madisons-MacBook TP % git log
+madisonowens@Madisons-MacBook TP % git branch branchOne
+madisonowens@Madisons-MacBook TP % git branch
+madisonowens@Madisons-MacBook TP % git checkout branchOne
+madisonowens@Madisons-MacBook TP % touch four.txt
+madisonowens@Madisons-MacBook TP % git add four.txt
+madisonowens@Madisons-MacBook TP % git commit -m "added 4th file"
+madisonowens@Madisons-MacBook TP % touch five.txt
+madisonowens@Madisons-MacBook TP % git add five.txt
+madisonowens@Madisons-MacBook TP % git commit -m "added fifth file"
+madisonowens@Madisons-MacBook TP % qdd six.txt
+madisonowens@Madisons-MacBook TP % add six.txt
+madisonowens@Madisons-MacBook TP % touch six.txt
+madisonowens@Madisons-MacBook TP % git add six.txt
+madisonowens@Madisons-MacBook TP % git commit -m "added 6th file"
+madisonowens@Madisons-MacBook TP % touch seven.txt
+madisonowens@Madisons-MacBook TP % git add seven.txt
+madisonowens@Madisons-MacBook TP % git commit -m "added 7th file"
+madisonowens@Madisons-MacBook TP % git log
+madisonowens@Madisons-MacBook TP % git checkout main
+madisonowens@Madisons-MacBook TP % git log
+madisonowens@Madisons-MacBook TP % touch eight.txt
+madisonowens@Madisons-MacBook TP % git add eight.txt
+madisonowens@Madisons-MacBook TP % git commit -m "added 8th file"
+madisonowens@Madisons-MacBook TP % touch TP16112023OWENSMadison.txt 
+madisonowens@Madisons-MacBook TP % git add TP16112023OWENSMadison.txt
+madisonowens@Madisons-MacBook TP % git commit -m "created text file to submit TP"
+madisonowens@Madisons-MacBook TP % git log
+madisonowens@Madisons-MacBook TP % git merge branchOne
+madisonowens@Madisons-MacBook TP % git merge branchOne -m "Merging branchOne to main branch"
+madisonowens@Madisons-MacBook TP % git log
+madisonowens@Madisons-MacBook TP % git branch
+madisonowens@Madisons-MacBook TP % git checkout branchOne
+madisonowens@Madisons-MacBook TP % git log
+madisonowens@Madisons-MacBook TP % 
